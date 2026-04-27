@@ -484,4 +484,71 @@ export const articles = [
     featured: false,
     slug: "/artikel/panduan-investasi-saham-pemula"
   }
+,
+  {
+      "id": 105,
+      "title": "Review HP Gaming 2 Jutaan Terbaik 2026: Spek Gahar Harga Pelajar!",
+      "excerpt": "Lagi cari HP murah tapi kuat main Genshin Impact dan PUBG rata kanan? Ini rekomendasi HP gaming 2 jutaan terbaik tahun ini.",
+      "category": "Review Gadget",
+      "slugCategory": "tech-hack/gadget",
+      "date": "28 Apr 2026",
+      "imageUrl": "/images/gadget_hp_gaming_1777312585166.png",
+      "featured": true,
+      "slug": "/artikel/review-hp-gaming-2-jutaan-terbaik-2026"
+  },
+  {
+      "id": 106,
+      "title": "7 Rekomendasi TWS Murah Terbaik 2026 dengan Bass Nendang & Baterai Awet",
+      "excerpt": "Daftar TWS murah berkualitas dengan fitur Active Noise Cancelling (ANC), bass punchy, dan daya tahan baterai di atas 24 jam.",
+      "category": "Review Gadget",
+      "slugCategory": "tech-hack/gadget",
+      "date": "28 Apr 2026",
+      "imageUrl": "/images/gadget_tws_earbuds_1777312601831.png",
+      "featured": false,
+      "slug": "/artikel/rekomendasi-tws-murah-bass-nendang"
+  },
+  {
+      "id": 107,
+      "title": "Perbandingan Lengkap iPhone 15 vs Samsung S24: Mana yang Layak Dibeli?",
+      "excerpt": "Adu spesifikasi, kamera, performa chipset, dan baterai antara dua raksasa flagship dunia: Apple iPhone 15 dan Samsung Galaxy S24.",
+      "category": "Review Gadget",
+      "slugCategory": "tech-hack/gadget",
+      "date": "28 Apr 2026",
+      "imageUrl": "/images/gadget_iphone_vs_samsung_1777312617639.png",
+      "featured": true,
+      "slug": "/artikel/perbandingan-iphone-15-vs-samsung-s24"
+  },
+  {
+      "id": 108,
+      "title": "5 Smartwatch Terbaik 2026 untuk Pantau Kesehatan dan Olahraga Rutin",
+      "excerpt": "Rekomendasi jam tangan pintar dengan fitur heart rate monitor akurat, pelacakan tidur, GPS bawaan, dan baterai super awet.",
+      "category": "Review Gadget",
+      "slugCategory": "tech-hack/gadget",
+      "date": "28 Apr 2026",
+      "imageUrl": "/images/gadget_smartwatch_1777312634667.png",
+      "featured": false,
+      "slug": "/artikel/smartwatch-terbaik-untuk-olahraga-dan-kesehatan"
+  },
+  {
+      "id": 109,
+      "title": "Rekomendasi Tablet Murah Berkualitas untuk Pelajar dan Mahasiswa",
+      "excerpt": "Pilihan tablet terbaik harga terjangkau yang sudah dilengkapi stylus pen. Cocok untuk mencatat, menggambar, dan zoom meeting.",
+      "category": "Review Gadget",
+      "slugCategory": "tech-hack/gadget",
+      "date": "28 Apr 2026",
+      "imageUrl": "/images/gadget_tablet_1777312654757.png",
+      "featured": false,
+      "slug": "/artikel/tablet-murah-untuk-pelajar-dan-mahasiswa"
+  },
+  {
+      "id": 110,
+      "title": "Review Kamera Mirrorless Terbaik untuk Content Creator Pemula 2026",
+      "excerpt": "Ingin mulai karir sebagai YouTuber atau TikToker? Ini kamera mirrorless terbaik, ringkas, dan ramah di kantong dengan autofokus juara.",
+      "category": "Review Gadget",
+      "slugCategory": "tech-hack/gadget",
+      "date": "28 Apr 2026",
+      "imageUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1000&auto=format&fit=crop",
+      "featured": false,
+      "slug": "/artikel/review-kamera-mirrorless-pemula"
+  }
 ];

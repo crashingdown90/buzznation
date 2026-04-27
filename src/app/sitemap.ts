@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/kategori/penghasil-uang',
     '/kategori/tech-hack/internet',
     '/kategori/tech-hack/tutorial',
+    '/kategori/tech-hack/gadget',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
