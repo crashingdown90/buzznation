@@ -12,7 +12,7 @@ export default function ArticlePage() {
   "@type": "NewsArticle",
   "headline": "Trik Rahasia Mempercepat Koneksi WiFi di HP dan PC",
   "image": [
-    "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop"
+    "https://buzznation.com/images/modern_wifi_router_1777312126027.png"
   ],
   "datePublished": "2026-04-26T17:00:00.000Z",
   "dateModified": "2026-04-26T17:00:00.000Z",
@@ -51,7 +51,7 @@ export default function ArticlePage() {
 
         <div className="article-body">
           <figure className="article-image-container">
-            <Image src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop" alt="Trik Rahasia Mempercepat Koneksi WiFi di HP dan PC" width={1200} height={675} style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/modern_wifi_router_1777312126027.png" alt="Trik Rahasia Mempercepat Koneksi WiFi di HP dan PC" width={1200} height={675} style={{ width: '100%', height: 'auto' }} />
           </figure>
 
           
@@ -68,6 +68,11 @@ export default function ArticlePage() {
 
     <h2>Komponen Kunci dan Fitur Unggulan</h2>
     <p>Untuk memaksimalkan potensi dari sistem ini, ada beberapa komponen esensial yang wajib Anda pahami dengan baik. Mengabaikan salah satu dari elemen ini dapat mengakibatkan hasil yang tidak optimal atau bahkan kegagalan sistem secara keseluruhan.</p>
+    
+    <figure style={{ margin: '30px 0' }}>
+      <Image src="/images/fast_data_flow_1777312178371.png" alt="Visualisasi Transfer Data Nirkabel" width={800} height={450} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+      <figcaption style={{ textAlign: 'center', fontSize: '14px', color: 'var(--text-secondary)', marginTop: '10px' }}>Ilustrasi aliran data nirkabel kecepatan tinggi (Sumber: Redaksi BuzzNation)</figcaption>
+    </figure>
     <ul>
       <li><strong>Aksesibilitas Multi-Platform:</strong> Sistem modern saat ini menuntut integrasi yang mulus antara perangkat mobile (Android/iOS) dan desktop (Windows/Mac).</li>
       <li><strong>Keamanan Data Tingkat Tinggi:</strong> Dengan maraknya kebocoran privasi, enkripsi end-to-end menjadi syarat mutlak yang tidak bisa ditawar lagi.</li>
@@ -77,6 +82,12 @@ export default function ArticlePage() {
 
     <h2>Panduan Teknis: Langkah demi Langkah</h2>
     <p>Setelah memahami konsep dasarnya, mari kita masuk ke tahap implementasi teknis. Tahapan di bawah ini telah diuji secara ketat oleh para teknisi kami untuk memastikan tingkat keberhasilan 100% jika diikuti dengan seksama.</p>
+
+    <figure style={{ margin: '30px 0' }}>
+      <Image src="/images/laptop_network_optimization_1777312162922.png" alt="Optimalisasi Jaringan PC dan Laptop" width={800} height={450} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+      <figcaption style={{ textAlign: 'center', fontSize: '14px', color: 'var(--text-secondary)', marginTop: '10px' }}>Mengatur konfigurasi jaringan untuk performa maksimal pada PC atau Laptop.</figcaption>
+    </figure>
+
     <ol>
       <li><strong>Persiapan Infrastruktur Dasar:</strong> Pastikan perangkat Anda telah diperbarui ke sistem operasi versi terbaru dan memiliki ruang penyimpanan (storage) yang memadai.</li>
       <li><strong>Konfigurasi Awal (Initial Setup):</strong> Masuk ke menu pengaturan utama, navigasikan ke opsi lanjutan, dan sesuaikan parameter lingkungan kerja sesuai kebutuhan spesifik Anda.</li>
@@ -87,6 +98,12 @@ export default function ArticlePage() {
 
     <h2>Kelebihan dan Kekurangan (Analisis Objektif)</h2>
     <p>Sebagai media yang mengedepankan objektivitas, kami juga harus memaparkan sisi kelemahan dari sistem ini agar Anda memiliki ekspektasi yang realistis.</p>
+
+    <figure style={{ margin: '30px 0' }}>
+      <Image src="/images/smartphone_speed_test_1777312140418.png" alt="Hasil Speed Test Kecepatan Internet di Smartphone" width={800} height={450} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+      <figcaption style={{ textAlign: 'center', fontSize: '14px', color: 'var(--text-secondary)', marginTop: '10px' }}>Kecepatan internet di smartphone meningkat drastis setelah pengoptimalan.</figcaption>
+    </figure>
+
     <h3>Kelebihan Utama</h3>
     <p>Sistem ini menawarkan tingkat skalabilitas yang sangat elastis. Artinya, baik Anda seorang individu maupun perusahaan skala korporat, fitur-fiturnya dapat disesuaikan (dikustomisasi) dengan beban kerja Anda. Selain itu, komunitas open-source yang besar memberikan dukungan penyelesaian masalah (troubleshooting) secara gratis dan cepat.</p>
     <h3>Potensi Kekurangan</h3>

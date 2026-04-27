@@ -106,7 +106,7 @@ export const articles = [
     category: "Internet",
     slugCategory: "tech-hack/internet",
     date: "27 Apr 2026",
-    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop",
+    imageUrl: "/images/modern_wifi_router_1777312126027.png",
     featured: false,
     slug: "/artikel/trik-rahasia-mempercepat-koneksi-wifi-di-hp-dan-pc"
   },
