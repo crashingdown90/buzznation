@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
@@ -7,6 +8,9 @@ import ProgressBar from "@/components/ProgressBar";
 export const metadata: Metadata = {
   title: "BuzzNation | Portal Berita Teknologi Terkini 2026",
   description: "Dapatkan berita terbaru seputar teknologi, gadget, games, esports, finansial, dan crypto hanya di BuzzNation.",
+  other: {
+    "google-adsense-account": "ca-pub-9806436984867634",
+  },
 };
 
 export default function RootLayout({
@@ -16,6 +20,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
+      <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9806436984867634"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
+      </head>
       <body>
         <ProgressBar />
         <Navbar />
