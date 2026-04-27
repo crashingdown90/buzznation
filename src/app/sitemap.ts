@@ -21,6 +21,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/kategori/hiburan',
     '/kategori/finansial',
     '/kategori/penghasil-uang',
+    '/kategori/tech-hack/internet',
+    '/kategori/tech-hack/tutorial',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
