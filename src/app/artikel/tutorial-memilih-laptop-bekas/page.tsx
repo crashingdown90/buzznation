@@ -4,6 +4,36 @@ export default function ArticlePage() {
   return (
     <main className="main-content article-layout">
       <article className="container" style={{ maxWidth: "800px", margin: "0 auto" }}>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Cara Memilih Laptop Bekas Terbaik 2026: Tutorial Lengkap Anti Tertipu",
+  "image": [
+    "https://buzznation.com/images/inspect_laptop_1777281460939.png"
+  ],
+  "datePublished": "2026-04-26T17:00:00.000Z",
+  "dateModified": "2026-04-26T17:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Redaksi BuzzNation",
+      "url": "https://buzznation.com/redaksi"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "BuzzNation",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://buzznation.com/icon.svg"
+    }
+  },
+  "description": "Panduan teknis memeriksa baterai, layar, dan spesifikasi asli laptop bekas agar tidak menyesal setelah membeli."
+}) }}
+      />
         
         <header className="article-header">
           <div style={{ marginBottom: "15px" }}>

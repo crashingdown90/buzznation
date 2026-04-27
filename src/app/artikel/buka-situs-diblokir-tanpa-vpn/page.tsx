@@ -4,6 +4,36 @@ export default function ArticlePage() {
   return (
     <main className="main-content article-layout">
       <article className="container" style={{ maxWidth: "800px", margin: "0 auto" }}>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "12 Cara Membuka Situs yang Diblokir di Google Chrome 2026 (Tanpa VPN!)",
+  "image": [
+    "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop"
+  ],
+  "datePublished": "2026-04-26T17:00:00.000Z",
+  "dateModified": "2026-04-26T17:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Redaksi BuzzNation",
+      "url": "https://buzznation.com/redaksi"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "BuzzNation",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://buzznation.com/icon.svg"
+    }
+  },
+  "description": "Cara buka situs yang diblokir tanpa menggunakan VPN. Temukan metode teknis terbaru yang aman, praktis, dan bebas pelacakan data."
+}) }}
+      />
         
         <header className="article-header">
           <div style={{ marginBottom: "15px" }}>

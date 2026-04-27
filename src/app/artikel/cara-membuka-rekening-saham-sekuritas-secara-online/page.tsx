@@ -4,6 +4,36 @@ export default function ArticlePage() {
   return (
     <main className="main-content article-layout">
       <article className="container" style={{ maxWidth: "800px", margin: "0 auto" }}>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Cara Membuka Rekening Saham Sekuritas Secara Online",
+  "image": [
+    "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?q=80&w=1000&auto=format&fit=crop"
+  ],
+  "datePublished": "2026-04-26T17:00:00.000Z",
+  "dateModified": "2026-04-26T17:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Redaksi BuzzNation",
+      "url": "https://buzznation.com/redaksi"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "BuzzNation",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://buzznation.com/icon.svg"
+    }
+  },
+  "description": "Informasi lengkap dan panduan komprehensif mengenai cara membuka rekening saham sekuritas secara online yang wajib Anda ketahui di tahun 2026."
+}) }}
+      />
         
         <header className="article-header">
           <div style={{ marginBottom: "15px" }}>

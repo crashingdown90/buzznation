@@ -4,6 +4,36 @@ export default function ArticlePage() {
   return (
     <main className="main-content article-layout">
       <article className="container" style={{ maxWidth: "800px", margin: "0 auto" }}>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Panduan Lengkap Cara Membangun PC Gaming Murah di Tahun 2026: Bebas Bottleneck dan Siap Rata Kanan!",
+  "image": [
+    "https://buzznation.com/images/modern_pc_build_1777278723404.png"
+  ],
+  "datePublished": "2026-04-26T17:00:00.000Z",
+  "dateModified": "2026-04-26T17:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Redaksi BuzzNation",
+      "url": "https://buzznation.com/redaksi"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "BuzzNation",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://buzznation.com/icon.svg"
+    }
+  },
+  "description": "Panduan komprehensif lebih dari 800 kata tentang merakit PC Gaming murah, menghindari bottleneck, dan tips memilih komponen terbaik 2026."
+}) }}
+      />
         
         <header className="article-header">
           <div style={{ marginBottom: "15px" }}>

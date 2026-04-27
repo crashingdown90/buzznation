@@ -4,6 +4,36 @@ export default function ArticlePage() {
   return (
     <main className="main-content article-layout">
       <article className="container" style={{ maxWidth: "800px", margin: "0 auto" }}>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Game Open World RPG Paling Ringan untuk HP RAM 3GB",
+  "image": [
+    "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=1000&auto=format&fit=crop"
+  ],
+  "datePublished": "2026-04-26T17:00:00.000Z",
+  "dateModified": "2026-04-26T17:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Redaksi BuzzNation",
+      "url": "https://buzznation.com/redaksi"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "BuzzNation",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://buzznation.com/icon.svg"
+    }
+  },
+  "description": "Informasi lengkap dan panduan komprehensif mengenai game open world rpg paling ringan untuk hp ram 3gb yang wajib Anda ketahui di tahun 2026."
+}) }}
+      />
         
         <header className="article-header">
           <div style={{ marginBottom: "15px" }}>

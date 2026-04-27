@@ -4,6 +4,36 @@ export default function CorelDrawArticle() {
   return (
     <main className="main-content article-layout">
       <article className="container" style={{ maxWidth: "800px", margin: "0 auto" }}>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "CorelDRAW X4 Full Version dan Portable (Free Download)",
+  "image": [
+    "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=1000&auto=format&fit=crop"
+  ],
+  "datePublished": "2026-03-24T17:00:00.000Z",
+  "dateModified": "2026-03-24T17:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Redaksi BuzzNation",
+      "url": "https://buzznation.com/redaksi"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "BuzzNation",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://buzznation.com/icon.svg"
+    }
+  },
+  "description": "Free download CorelDRAW X4 full version dan CorelDRAW x4 portable. Cek link dan cara download CorelDRAW X4 terbaru secara aman tanpa risiko."
+}) }}
+      />
         
         {/* Header Artikel */}
         <header className="article-header">
