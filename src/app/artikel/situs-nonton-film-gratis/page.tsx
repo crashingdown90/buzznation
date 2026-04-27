@@ -111,7 +111,7 @@ export default function ArticlePage() {
         </div>
 
         {/* RELATED POSTS SECTION */}
-        <RelatedPosts currentId={4} category="Hiburan" />
+        <RelatedPosts currentSlug="/artikel/situs-nonton-film-gratis" category="Hiburan" />
       </article>
     </main>
   );

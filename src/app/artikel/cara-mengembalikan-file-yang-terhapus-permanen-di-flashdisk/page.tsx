@@ -122,7 +122,7 @@ export default function ArticlePage() {
         </div>
 
         {/* RELATED POSTS SECTION */}
-        <RelatedPosts currentId={22} category="Tech Hack" />
+        <RelatedPosts currentSlug="/artikel/cara-mengembalikan-file-yang-terhapus-permanen-di-flashdisk" category="Tech Hack" />
       </article>
     </main>
   );

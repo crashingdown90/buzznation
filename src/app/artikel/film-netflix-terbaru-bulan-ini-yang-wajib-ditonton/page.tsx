@@ -116,7 +116,7 @@ export default function ArticlePage() {
         </div>
 
         {/* RELATED POSTS SECTION */}
-        <RelatedPosts currentId={36} category="Hiburan" />
+        <RelatedPosts currentSlug="/artikel/film-netflix-terbaru-bulan-ini-yang-wajib-ditonton" category="Hiburan" />
       </article>
     </main>
   );

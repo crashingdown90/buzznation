@@ -114,7 +114,7 @@ export default function ArticlePage() {
         </div>
 
         {/* RELATED POSTS SECTION */}
-        <RelatedPosts currentId={23} category="Tech Hack" />
+        <RelatedPosts currentSlug="/artikel/review-spesifikasi-minimal-pc-untuk-editing-video-4k" category="Tech Hack" />
       </article>
     </main>
   );
