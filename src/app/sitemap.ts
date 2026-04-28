@@ -3,7 +3,7 @@ import { articles } from '@/data/articles';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Ganti dengan domain asli Anda saat deployment (misal: https://buzznation.com)
-  const baseUrl = 'https://buzznation.com';
+  const baseUrl = 'https://www.buzznation.id';
 
   // Dinamis mapping semua artikel
   const articleUrls = articles.map((article) => ({
