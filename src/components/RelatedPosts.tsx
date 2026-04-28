@@ -12,7 +12,6 @@ export default function RelatedPosts({ currentSlug, category }: RelatedPostsProp
   // If we only have category like "Tutorial & Tips", we match that.
   const related = articles
     .filter((a) => a.category === category && a.slug !== currentSlug)
-    .sort(() => 0.5 - Math.random()) // Shuffle
     .slice(0, 3); // Take 3
 
   if (related.length === 0) return null;

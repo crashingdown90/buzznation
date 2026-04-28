@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import Link from "next/link";
 
 import Navbar from "@/components/Navbar";
 import ProgressBar from "@/components/ProgressBar";
@@ -54,22 +55,22 @@ export default function RootLayout({
               <div className="footer-col">
                 <h4>Tentang BuzzNation</h4>
                 <ul className="footer-links">
-                  <li><a href="/tentang-kami">Tentang Kami</a></li>
-                  <li><a href="/redaksi">Redaksi</a></li>
-                  <li><a href="/pedoman-media-siber">Pedoman Media Siber</a></li>
-                  <li><a href="/proses-penulisan">Proses Penulisan Artikel</a></li>
-                  <li><a href="/kontak">Saran & Kritik</a></li>
+                  <li><Link href="/tentang-kami">Tentang Kami</Link></li>
+                  <li><Link href="/redaksi">Redaksi</Link></li>
+                  <li><Link href="/pedoman-media-siber">Pedoman Media Siber</Link></li>
+                  <li><Link href="/proses-penulisan">Proses Penulisan Artikel</Link></li>
+                  <li><Link href="/kontak">Saran & Kritik</Link></li>
                 </ul>
               </div>
               <div className="footer-col">
                 <h4>Kategori Unggulan</h4>
                 <ul className="footer-links">
-                  <li><a href="/kategori/tech-hack">Tech Hack</a></li>
-                  <li><a href="/kategori/games">Games</a></li>
-                  <li><a href="/kategori/apps">Apps</a></li>
-                  <li><a href="/kategori/hiburan">Hiburan</a></li>
-                  <li><a href="/kategori/finansial">Finansial</a></li>
-                  <li><a href="/kategori/penghasil-uang">Penghasil Uang</a></li>
+                  <li><Link href="/kategori/tech-hack">Tech Hack</Link></li>
+                  <li><Link href="/kategori/games">Games</Link></li>
+                  <li><Link href="/kategori/apps">Apps</Link></li>
+                  <li><Link href="/kategori/hiburan">Hiburan</Link></li>
+                  <li><Link href="/kategori/finansial">Finansial</Link></li>
+                  <li><Link href="/kategori/penghasil-uang">Penghasil Uang</Link></li>
                 </ul>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import { articles } from "@/data/articles";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 
 export default async function CategoryPage(props: { params: Promise<{ slug: string[] }> }) {
   const params = await props.params;
@@ -68,7 +69,7 @@ export default async function CategoryPage(props: { params: Promise<{ slug: stri
         <div style={{ textAlign: "center", padding: "50px 0", border: "1px dashed var(--border-color)", borderRadius: "8px" }}>
           <h3>Belum ada artikel di kategori ini.</h3>
           <p style={{ color: "var(--text-secondary)", marginTop: "10px" }}>Kami sedang menyiapkan konten menarik untuk Anda. Silakan kembali lagi nanti!</p>
-          <a href="/" className="btn-primary" style={{ marginTop: "20px" }}>Kembali ke Beranda</a>
+          <Link href="/" className="btn-primary" style={{ marginTop: "20px" }}>Kembali ke Beranda</Link>
         </div>
       )}
     </main>

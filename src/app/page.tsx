@@ -1,5 +1,6 @@
 import { articles } from "@/data/articles";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const featuredArticles = articles.filter(a => a.featured);
@@ -101,7 +102,7 @@ export default function Home() {
       {/* Tech Hack & Tutorial Section */}
       <div className="section-header" style={{ marginTop: "40px" }}>
         <h2 className="section-title">Tech Hack & Tutorial</h2>
-        <a href="/kategori/tech-hack" style={{ fontSize: "14px", fontWeight: 600, color: "var(--accent-primary)" }}>Lihat Semua &rarr;</a>
+        <Link href="/kategori/tech-hack" style={{ fontSize: "14px", fontWeight: 600, color: "var(--accent-primary)" }}>Lihat Semua &rarr;</Link>
       </div>
       <div className="grid-standard">
         {techHackArticles.map((article) => (
@@ -112,7 +113,7 @@ export default function Home() {
       {/* Apps, Games & Hiburan Section */}
       <div className="section-header" style={{ marginTop: "40px" }}>
         <h2 className="section-title">Apps, Games & Hiburan</h2>
-        <a href="/kategori/apps" style={{ fontSize: "14px", fontWeight: 600, color: "var(--accent-primary)" }}>Lihat Semua &rarr;</a>
+        <Link href="/kategori/apps" style={{ fontSize: "14px", fontWeight: 600, color: "var(--accent-primary)" }}>Lihat Semua &rarr;</Link>
       </div>
       <div className="grid-standard">
         {appsHiburanArticles.map((article) => (
@@ -123,7 +124,7 @@ export default function Home() {
       {/* Finansial & Penghasil Uang Section */}
       <div className="section-header" style={{ marginTop: "40px" }}>
         <h2 className="section-title">Finansial & Penghasil Uang</h2>
-        <a href="/kategori/finansial" style={{ fontSize: "14px", fontWeight: 600, color: "var(--accent-primary)" }}>Lihat Semua &rarr;</a>
+        <Link href="/kategori/finansial" style={{ fontSize: "14px", fontWeight: 600, color: "var(--accent-primary)" }}>Lihat Semua &rarr;</Link>
       </div>
       <div className="grid-standard">
         {finansialArticles.map((article) => (
