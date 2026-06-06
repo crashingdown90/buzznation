@@ -52,30 +52,76 @@ export default function ArticlePage() {
 
         <div className="article-body">
           <figure className="article-image-container">
-            <Image src="/images/gadget_tws_earbuds_1777312601831.png" alt="7 Rekomendasi TWS Murah Terbaik 2026 dengan Bass Nendang & Baterai Awet" width={1200} height={675} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+            <Image src="/images/gadget_tws_earbuds_1777312601831.png" alt="7 Rekomendasi TWS Murah Terbaik 2026" width={1200} height={675} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
           </figure>
 
-          <p>Tahun 2026 menjadi tahun yang luar biasa bagi perkembangan teknologi konsumen. Dalam artikel ini, kita akan membahas secara mendalam tentang inovasi terbaru dan fitur-fitur unggulan yang ditawarkan oleh perangkat mutakhir saat ini. Apakah perangkat ini layak untuk di-upgrade? Mari kita simak _review_ komprehensif dari tim BuzzNation.</p>
+          <p>Mendengarkan musik secara nirkabel (wireless) kini menjadi kebutuhan dasar harian masyarakat urban, mulai dari menemani perjalanan komuting, berolahraga di gym, hingga menghadiri meeting online. Teknologi True Wireless Stereo (TWS) berkembang pesat hingga ke kelas harga terjangkau di bawah 500 ribu rupiah. Menariknya, TWS murah keluaran tahun 2026 tidak lagi memiliki kualitas suara cempreng dan baterai boros. Sebaliknya, produsen audio kini berlomba menghadirkan driver berukuran besar untuk reproduksi suara bass yang mendalam (punchy bass), konektivitas Bluetooth 5.3 yang stabil, hingga fitur peredam bising aktif (ANC).</p>
+
+          <p>Bagi Anda penikmat audio berkarakter bass tebal (basshead) yang mencari earphone nirkabel berkualitas tinggi dengan harga ramah dompet, berikut adalah 4 rekomendasi TWS murah terbaik hasil pengujian tim BuzzNation.</p>
           
-          <h2>Desain dan Kualitas Bangun (Build Quality)</h2>
-          <p>Kesan pertama sangatlah penting. Perangkat ini hadir dengan desain yang premium dan material yang kokoh. Ergonomi juga diperhatikan dengan sangat baik, sehingga nyaman digunakan dalam waktu yang lama. Produsen sepertinya telah mendengarkan keluhan konsumen pada seri pendahulunya dan memberikan perombakan desain yang signifikan.</p>
+          <h2>1. Soundcore R50i: Raja Bass di Kelas Entry-Level & Kustomisasi Aplikasi Lengkap</h2>
+          <p>Soundcore R50i buatan Anker merupakan TWS paling laris dan sangat direkomendasikan di rentang harga 150 ribu hingga 200 ribu rupiah. Dibekali driver berukuran 10mm, TWS ini menghasilkan suara bass yang sangat bertenaga, dalam, dan bulat. Keistimewaan utama Soundcore R50i terletak pada integrasi aplikasi *Soundcore App*.</p>
+          <p>Melalui aplikasi tersebut, Anda bisa memilih 22 pilihan preset Equalizer (EQ) yang dikonfigurasi secara profesional, mengaktifkan mode gaming rendah latensi, hingga mencari earbud yang hilang lewat fitur *Find My Earbuds*.</p>
           
-          <h2>Performa dan Spesifikasi Teknis</h2>
-          <p>Berbicara soal _gadget_, tentu tidak lepas dari spesifikasi dapur pacunya. Ditenagai oleh chipset generasi terbaru, perangkat ini mampu menangani *multitasking* berat hingga bermain game grafis tinggi tanpa hambatan berarti (_lag_). Manajemen suhunya juga sangat stabil berkat sistem pendingin internal yang revolusioner.</p>
+          <h2>2. Baseus Bowie WM02: Desain Kapsul Transparan Super Ringkas & Nyaman</h2>
+          <p>Jika kenyamanan penggunaan dalam jangka waktu lama menjadi prioritas Anda, Baseus Bowie WM02 adalah pilihan yang tepat. Earbud-nya memiliki bobot super ringan, hanya 3,8 gram per earbud, dan mengusung desain in-ear ergonomis bersudut 108 derajat yang sangat pas di lubang telinga. Menggunakan konektivitas Bluetooth 5.3, Baseus menjamin efisiensi konsumsi baterai yang tinggi sehingga total daya tahan pemakaian mencapai 25 jam bersama charging case.</p>
+
+          <h2>3. Realme Buds T300: Fitur Peredam Bising ANC 30dB Termurah</h2>
+          <p>Bagi Anda yang sering bepergian menggunakan transportasi umum kereta api atau pesawat dan terganggu dengan suara bising mesin, Realme Buds T300 adalah opsi TWS murah terbaik yang dilengkapi fitur *Active Noise Cancellation (ANC)* hingga 30 desibel. TWS ini secara aktif meredam frekuensi suara rendah di sekitar Anda.</p>
+          <p>Didukung oleh driver dinamis berukuran besar 12.4mm berlapis titanium, suara vokal terdengar sangat jernih dipadukan dengan dentuman bass yang dinamis.</p>
 
           <div className="article-highlight">
-            <strong>Catatan Reviewer:</strong> Berdasarkan pengujian sintetis menggunakan aplikasi *benchmark* standar industri, skor yang dihasilkan melampaui rata-rata perangkat lain di kelas harga yang sama hingga 25%.
+            <strong>Tips Memilih Eartips TWS:</strong> Selalu gunakan ukuran karet eartips (S, M, L) yang paling pas dan menyumbat lubang telinga Anda secara sempurna (*seal*). Eartips yang terlalu longgar akan membuat frekuensi bass bocor keluar sehingga kualitas suara terdengar cempreng dan kurang maksimal.
           </div>
 
-          <h2>Fitur Unggulan dan Inovasi Baru</h2>
-          <ul>
-            <li><strong>Layar Super Jernih:</strong> Mengadopsi teknologi panel terbaru yang menghasilkan warna lebih hidup dan tingkat kecerahan yang sangat tinggi, bahkan di bawah sinar matahari langsung.</li>
-            <li><strong>Daya Tahan Baterai (Battery Life):</strong> Kapasitas baterai yang masif dikombinasikan dengan efisiensi daya chipset membuat perangkat ini bisa bertahan lebih dari seharian penuh.</li>
-            <li><strong>Dukungan Fast Charging:</strong> Tidak perlu menunggu lama. Fitur pengisian daya cepat memungkinkan Anda mengisi baterai dari 0% hingga 80% hanya dalam waktu 30 menit.</li>
-          </ul>
+          <h2>4. Haylou GT7 Neo: Karakter Suara Warm & Mikrofon AI Clear Call</h2>
+          <p>Haylou GT7 Neo menyasar pengguna yang menyukai karakter suara seimbang (warm) dengan frekuensi vokal yang intim dan bass yang pas tidak berlebihan. Menggunakan driver dinamis 8mm berkualitas tinggi, TWS ini sangat nyaman didengarkan untuk genre musik akustik atau pop. Haylou menyertakan algoritma kecerdasan buatan *AI Call Noise Cancellation* untuk menyaring suara berisik sekitar agar percakapan telepon Anda terdengar jernih oleh lawan bicara.</p>
 
-          <h2>Kesimpulan: Layak Dibeli?</h2>
-          <p>Setelah melakukan pengujian ekstensif selama beberapa minggu, kami berkesimpulan bahwa perangkat ini menawarkan kombinasi *price-to-performance* (harga berbanding performa) yang luar biasa. Jika Anda memiliki anggaran (*budget*) di rentang harga ini, maka perangkat ini adalah rekomendasi *Top Tier* dari kami.</p>
+          <h2>Perbandingan Spesifikasi Utama TWS</h2>
+          <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '20px', marginBottom: '20px' }}>
+            <thead>
+              <tr style={{ backgroundColor: '#f1f5f9', textAlign: 'left' }}>
+                <th style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Model TWS</th>
+                <th style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Ukuran Driver</th>
+                <th style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Fitur Khusus</th>
+                <th style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Baterai (Case)</th>
+                <th style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Versi Bluetooth</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Soundcore R50i</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>10mm</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Aplikasi EQ, IPX5 Waterproof</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Hingga 30 Jam</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Bluetooth 5.3</td>
+              </tr>
+              <tr style={{ backgroundColor: '#f8fafc' }}>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Baseus Bowie WM02</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>- (Kompak)</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Desain Mini, Ringan 3.8g</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Hingga 25 Jam</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Bluetooth 5.3</td>
+              </tr>
+              <tr>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Realme Buds T300</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>12.4mm</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Active Noise Cancelling 30dB</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Hingga 40 Jam (Non-ANC)</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Bluetooth 5.3</td>
+              </tr>
+              <tr style={{ backgroundColor: '#f8fafc' }}>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Haylou GT7 Neo</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>8mm</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>AI Call Noise Cancelling</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Hingga 22 Jam</td>
+                <td style={{ padding: '12px', border: '1px solid #cbd5e1' }}>Bluetooth 5.2</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2>Kesimpulan: TWS Murah Mana yang Layak Dipilih?</h2>
+          <p>Bagi Anda para pecinta musik EDM atau Hip-Hop yang menginginkan suara bass super mantap dengan fleksibilitas kustomisasi aplikasi yang kaya, **Soundcore R50i** adalah pilihan wajib nomor satu. Namun, jika Anda membutuhkan kesunyian saat berada di area publik yang bising, menyisihkan budget ekstra untuk membeli **Realme Buds T300** yang dilengkapi peredam bising ANC aktif adalah investasi audio terbaik untuk kenyamanan telinga Anda di tahun 2026.</p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/rekomendasi-tws-murah-bass-nendang" category="Tech Hack" />
