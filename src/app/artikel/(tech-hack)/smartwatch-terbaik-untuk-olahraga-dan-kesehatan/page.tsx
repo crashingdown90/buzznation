@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "5 Smartwatch Terbaik 2026 untuk Pantau Kesehatan dan...",
+  description: "Rekomendasi jam tangan pintar dengan fitur heart rate monitor akurat, pelacakan tidur, GPS bawaan, dan baterai super awet.",
+};
 
 export default function ArticlePage() {
   return (
@@ -122,6 +128,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Smartwatch Mana yang Tepat untuk Kebutuhan Anda?</h2>
           <p>Memilih smartwatch yang tepat sangat bergantung pada intensitas olahraga Anda. Bagi Anda yang mengutamakan fashion, gaya kasual, dan pemantauan detak jantung harian dasar, **Huawei Watch Fit 3** menawarkan visualisasi premium tercantik di kelas menengah. Sementara itu, bagi pelari antusias atau pesepeda yang membutuhkan akurasi GPS mutlak, analisis beban latihan pasca-olahraga, dan integrasi dengan aplikasi Strava yang lancar, berinvestasi pada **Garmin Forerunner 55** adalah keputusan terbaik yang akan mendukung rencana transformasi kesehatan Anda.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/gadget">Review Gadget</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/smartwatch-terbaik-untuk-olahraga-dan-kesehatan" category="Tech Hack" />

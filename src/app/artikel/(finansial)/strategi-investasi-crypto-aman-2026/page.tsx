@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+export const metadata = {
+  title: "Strategi Investasi Crypto untuk Pemula 2026: Cara Aman...",
+  description: "Pelajari manajemen risiko kripto, strategi DCA, cara mengenali penipuan Rugpull, dan pentingnya menggunakan Cold Wallet untuk aset digital Anda.",
+};
+
 export default function ArticlePage() {
   return (
     <main className="main-content article-layout">
@@ -96,6 +102,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan dan Peringatan Terakhir</h2>
           <p>Menjadi sukses di industri kripto tahun 2026 bukanlah tentang siapa yang paling cepat menemukan "koin gaib bermodal 100 ribu jadi 1 Miliar". Kesuksesan diukur dari siapa yang mampu bertahan hidup (<em>Survive</em>) paling lama tanpa kehilangan modal utamanya. Pertahankan rasio portofolio Anda di ranah koin-koin berfundamental kuat, selalu terapkan skeptisisme (rasa curiga) terhadap penawaran yang terlalu indah (<em>Too good to be true</em>), dan amankan aset Anda di brankas digital (Cold Wallet). Konsistensi dan kesabaran adalah kunci menuju kebebasan finansial dari dunia desentralisasi. Selamat berinvestasi secara logis!</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/finansial/crypto">Crypto</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://www.ojk.go.id" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Otoritas Jasa Keuangan (OJK)</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/strategi-investasi-crypto-aman-2026" category="Crypto" />

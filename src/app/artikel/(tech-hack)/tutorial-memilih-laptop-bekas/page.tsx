@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Cara Memilih Laptop Bekas Terbaik 2026: Tutorial Lengkap...",
+  description: "Panduan teknis memeriksa baterai, layar, dan spesifikasi asli laptop bekas agar tidak menyesal setelah membeli.",
+};
 
 export default function ArticlePage() {
   return (
@@ -86,6 +92,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Kunci Transaksi COD yang Aman</h2>
           <p>Membeli laptop bekas yang berkualitas tinggi membutuhkan kesabaran dan ketelitian ekstra saat melakukan inspeksi. Jangan terburu-buru melakukan transaksi hanya karena tergiur harga yang murah di bawah pasaran. Dengan menerapkan langkah-langkah pengecekan dari **BuzzNation** mulai dari kesehatan baterai, integritas SSD, hingga tes keyboard menggunakan situs uji secara cermat, Anda dipastikan akan mendapatkan laptop bekas performa handal yang akan awet mendukung produktivitas kerja dan studi Anda.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/tutorial">Tutorial & Tips</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/tutorial-memilih-laptop-bekas" category="Tech Hack" />

@@ -111,6 +111,10 @@ export default function ArticlePage() {
             <h4>Apakah saya memerlukan monitor khusus (Color Accurate)?</h4>
             <p>Sangat diwajibkan! Percuma Anda merakit PC puluhan juta jika mengedit di monitor *gaming* murah. Pastikan monitor Anda memiliki spesifikasi minimal sRGB 100% dan DCI-P3 95% ke atas agar warna yang Anda gradasi (*Color Grading*) tidak meleset saat ditonton di perangkat lain.</p>
           </div>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/gadget">Review Gadget</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         {/* RELATED POSTS SECTION */}

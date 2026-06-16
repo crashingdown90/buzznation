@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Perbandingan Lengkap iPhone 15 vs Samsung S24: Mana yang...",
+  description: "Adu spesifikasi, kamera, performa chipset, dan baterai antara dua raksasa flagship dunia: Apple iPhone 15 dan Samsung Galaxy S24.",
+};
 
 export default function ArticlePage() {
   return (
@@ -110,6 +116,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Mana yang Layak untuk Dibeli?</h2>
           <p>Jika Anda menyukai ekosistem yang terintegrasi rapi dengan perangkat Mac atau iPad, serta membutuhkan kamera perekaman video instan yang stabil untuk media sosial, maka **Apple iPhone 15** dengan Dynamic Island dan port USB-C baru adalah pilihan yang sangat matang. Namun, bila Anda menginginkan layar dengan pergerakan luar biasa mulus 120Hz, kemampuan zoom kamera telefoto optikal sejati, serta kepraktisan kustomisasi sistem operasi Android yang didukung kecerdasan buatan *Galaxy AI* terintegrasi, **Samsung Galaxy S24** adalah alternatif flagship yang memberikan nilai guna lebih besar di tahun 2026.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/gadget">Review Gadget</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/perbandingan-iphone-15-vs-samsung-s24" category="Tech Hack" />

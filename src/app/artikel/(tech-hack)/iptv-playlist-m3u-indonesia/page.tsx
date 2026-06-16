@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Daftar Link IPTV Playlist M3U Indonesia Terbaru 2026:...",
+  description: "Cara setting M3U Playlist di Android & STB, serta daftar URL IPTV gratis untuk menonton siaran TV nasional tanpa batas.",
+};
 
 export default function ArticlePage() {
   return (
@@ -99,6 +105,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Masa Depan Hiburan Rumah Anda</h2>
           <p>Teknologi IPTV Playlist M3U memberikan kemudahan luar biasa bagi keluarga Indonesia untuk menikmati siaran informasi dan hiburan tanpa perlu membeli perangkat antena fisik tambahan yang rentan terhadap gangguan cuaca buruk. Dengan memilih aplikasi pemutar yang tepat seperti **TiviMate** atau **VLC**, serta menggunakan sumber link playlist legal yang aktif, ruang keluarga Anda kini bertransformasi menjadi pusat hiburan digital modern yang sangat praktis dan hemat biaya di tahun 2026.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/tutorial">Tutorial & Tips</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/iptv-playlist-m3u-indonesia" category="Tech Hack" />

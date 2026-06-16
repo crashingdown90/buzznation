@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Rekomendasi Tablet Murah Berkualitas untuk Pelajar dan...",
+  description: "Pilihan tablet terbaik harga terjangkau yang sudah dilengkapi stylus pen. Cocok untuk mencatat, menggambar, dan zoom meeting.",
+};
 
 export default function ArticlePage() {
   return (
@@ -124,6 +130,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Mana yang Harus Anda Pilih?</h2>
           <p>Jika Anda mengutamakan kenyamanan menonton media perkuliahan dan mendengarkan penjelasan audio dosen, **Redmi Pad SE** adalah pemenang mutlak di harga 1,9 jutaan rupiah. Namun, bila Anda menginginkan tablet kompak yang tangguh dan memiliki konektivitas seluler mandiri tanpa bergantung pada Wi-Fi luar, **Advan Tab VX Lite** dan **Samsung Galaxy Tab A9 LTE** adalah pilihan alternatif terbaik yang wajib Anda pertimbangkan demi menunjang produktivitas akademik Anda di tahun 2026.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/gadget">Review Gadget</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/tablet-murah-untuk-pelajar-dan-mahasiswa" category="Tech Hack" />

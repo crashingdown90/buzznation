@@ -113,6 +113,10 @@ export default function ArticlePage() {
             <h4>Kapan biasanya Netflix merilis film terbarunya?</h4>
             <p>Umumnya, Netflix merilis film dan serial premium (<em>blockbuster</em>) mereka pada hari Jumat sore waktu Indonesia. Ini dilakukan untuk menemani waktu santai pelanggan di akhir pekan.</p>
           </div>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/hiburan/film">Film & Series</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://www.imdb.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>IMDb (Internet Movie Database)</a>.
+          </p>
         </div>
 
         {/* RELATED POSTS SECTION */}

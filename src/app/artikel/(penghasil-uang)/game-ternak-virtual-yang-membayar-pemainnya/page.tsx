@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+export const metadata = {
+  title: "Game Ternak Virtual yang Membayar Pemainnya",
+  description: "Informasi lengkap dan panduan komprehensif mengenai game ternak virtual yang membayar pemainnya yang wajib Anda ketahui di tahun 2026.",
+};
+
 export default function ArticlePage() {
   return (
     <main className="main-content article-layout">
@@ -107,6 +113,10 @@ export default function ArticlePage() {
       <p style={{ color: 'var(--text-secondary)' }}>Tidak. Panduan inti yang kami sampaikan di sini memanfaatkan peralatan dan piranti lunak berlisensi gratis (Open Source / Freeware). Biaya tambahan hanya opsional jika Anda menginginkan fitur tingkat lanjut (Premium).</p>
     </div>
   
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/penghasil-uang">Penghasil Uang</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Play Store</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/game-ternak-virtual-yang-membayar-pemainnya" category="Penghasil Uang" />

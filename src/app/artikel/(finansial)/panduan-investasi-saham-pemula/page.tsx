@@ -1,5 +1,11 @@
+import Link from "next/link";
 import Image from "next/image";
 import RelatedPosts from "@/components/RelatedPosts";
+
+export const metadata = {
+  title: "Panduan Lengkap Memulai Investasi Saham untuk Pemula...",
+  description: "Panduan berinvestasi saham, rasio fundamental PER/PBV, cara buka rekening RDN, hingga manajemen psikologi trading (E-E-A-T Compliant).",
+};
 
 export default function ArticlePage() {
   return (
@@ -116,6 +122,10 @@ export default function ArticlePage() {
       <p style={{ color: 'var(--text-secondary)' }}>Tidak. Panduan inti yang kami sampaikan di sini memanfaatkan peralatan dan piranti lunak berlisensi gratis (Open Source / Freeware). Biaya tambahan hanya opsional jika Anda menginginkan fitur tingkat lanjut (Premium).</p>
     </div>
   
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/finansial/investasi">Investasi</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://www.ojk.go.id" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Otoritas Jasa Keuangan (OJK)</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/panduan-investasi-saham-pemula" category="Investasi" />

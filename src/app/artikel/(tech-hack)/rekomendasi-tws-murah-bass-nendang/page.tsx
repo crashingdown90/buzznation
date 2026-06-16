@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "7 Rekomendasi TWS Murah Terbaik 2026 dengan Bass Nendang...",
+  description: "Daftar TWS murah berkualitas dengan fitur Active Noise Cancelling (ANC), bass punchy, dan daya tahan baterai di atas 24 jam.",
+};
 
 export default function ArticlePage() {
   return (
@@ -122,6 +128,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: TWS Murah Mana yang Layak Dipilih?</h2>
           <p>Bagi Anda para pecinta musik EDM atau Hip-Hop yang menginginkan suara bass super mantap dengan fleksibilitas kustomisasi aplikasi yang kaya, **Soundcore R50i** adalah pilihan wajib nomor satu. Namun, jika Anda membutuhkan kesunyian saat berada di area publik yang bising, menyisihkan budget ekstra untuk membeli **Realme Buds T300** yang dilengkapi peredam bising ANC aktif adalah investasi audio terbaik untuk kenyamanan telinga Anda di tahun 2026.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/gadget">Review Gadget</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/rekomendasi-tws-murah-bass-nendang" category="Tech Hack" />

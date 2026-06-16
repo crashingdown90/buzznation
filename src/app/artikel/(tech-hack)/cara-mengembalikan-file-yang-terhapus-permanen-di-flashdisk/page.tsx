@@ -119,6 +119,10 @@ export default function ArticlePage() {
             <h4>Apakah flashdisk yang patah secara fisik bisa diperbaiki datanya?</h4>
             <p>Aplikasi *software* apa pun tidak akan bisa menolong Anda jika kerusakan bersifat fisik (*Hardware*). Anda harus membawa flashdisk tersebut ke laboratorium Data Recovery spesialis, di mana mereka akan memindahkan chip NAND secara manual menggunakan alat solder mikro ke sirkuit flashdisk baru. Biayanya bisa mencapai jutaan rupiah.</p>
           </div>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/tutorial">Tutorial & Tips</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         {/* RELATED POSTS SECTION */}

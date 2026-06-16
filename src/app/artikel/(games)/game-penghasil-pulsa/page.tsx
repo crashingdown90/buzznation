@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "9 Game Penghasil Pulsa dan Kuota Gratis All Operator...",
+  description: "Main game bukan sekadar buang waktu. Deretan game ini siap mengisi ulang pulsa dan kuota internet kamu secara otomatis.",
+};
 
 export default function ArticlePage() {
   return (
@@ -85,6 +91,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Apakah Game Penghasil Pulsa Ini Layak Dicoba?</h2>
           <p>Bermain game penghasil pulsa gratis seperti **MPL** dan **Island King** sangat layak dicoba untuk mengisi waktu senggang Anda secara produktif. Walaupun jumlah pulsa yang dihasilkan tidak akan membuat Anda kaya mendadak, nominal yang dikumpulkan secara konsisten selama beberapa minggu sudah lebih dari cukup untuk menutupi biaya pembelian kuota internet bulanan ponsel Anda tanpa membebani dompet orang tua.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/games/android">Android Games</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/game-penghasil-pulsa" category="Android Games" />

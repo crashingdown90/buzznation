@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Review Kamera Mirrorless Terbaik untuk Content Creator...",
+  description: "Ingin mulai karir sebagai YouTuber atau TikToker? Ini kamera mirrorless terbaik, ringkas, dan ramah di kantong dengan autofokus juara.",
+};
 
 export default function ArticlePage() {
   return (
@@ -122,6 +128,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Mana Kamera Terbaik untuk Anda?</h2>
           <p>Bagi Anda yang fokus utamanya adalah membuat video ulasan produk, tutorial kecantikan, atau vlogging di kamar, **Sony ZV-E10** adalah investasi jangka panjang terbaik berkat kecepatan autofokusnya yang tak tertandingi dan ekosistem lensa Sony E-mount yang sangat melimpah. Namun, bila Anda menginginkan kamera hibrida yang seimbang untuk hobi fotografi kasual sekaligus vlogging harian dengan warna kulit yang langsung cantik tanpa editing, **Canon EOS M50 Mark II** dan **Fujifilm X-T200** adalah pilihan pendamping kreatif yang sangat handal di kelasnya.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/gadget">Review Gadget</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/review-kamera-mirrorless-pemula" category="Tech Hack" />

@@ -550,5 +550,116 @@ export const articles = [
       "imageUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1000&auto=format&fit=crop",
       "featured": false,
       "slug": "/artikel/review-kamera-mirrorless-pemula"
+  },
+  {
+      "id": 200,
+      "title": "Cara Mengatasi HP Android Mati Total tapi Terdeteksi PC",
+      "excerpt": "Panduan langkah demi langkah cara mengatasi HP Android mati total (matot) namun masih terdeteksi di laptop atau PC Anda secara mudah.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_hp_matot.png",
+      "featured": false,
+      "slug": "/artikel/cara-mengatasi-hp-mati-total-tetap-konek-pc"
+  },
+  {
+      "id": 201,
+      "title": "Cara Menghapus Akun Google Secara Permanen di HP & Laptop",
+      "excerpt": "Ingin menghapus akun Gmail atau Google Anda secara selamanya? Ikuti tutorial cara menghapus akun Google secara aman tanpa sisa.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_hapus_akun_google.png",
+      "featured": false,
+      "slug": "/artikel/cara-menghapus-akun-google-permanen"
+  },
+  {
+      "id": 202,
+      "title": "Cara Format Flashdisk Write Protected di Windows 10/11",
+      "excerpt": "Flashdisk Anda tidak bisa dihapus atau ditambah file karena Write Protected? Berikut cara memperbaikinya dengan CMD dan Registry Editor.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_format_flashdisk.png",
+      "featured": false,
+      "slug": "/artikel/cara-format-flashdisk-write-protected"
+  },
+  {
+      "id": 203,
+      "title": "Cara Mengatasi Sinyal HP Hilang Tiba-Tiba (Semua Operator)",
+      "excerpt": "Mengalami masalah sinyal HP hilang mendadak atau bertanda silang? Simak tutorial lengkap mengatasi sinyal kartu seluler tidak terbaca.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_sinyal_hp_hilang.png",
+      "featured": false,
+      "slug": "/artikel/cara-mengatasi-sinyal-hp-hilang"
+  },
+  {
+      "id": 204,
+      "title": "Cara Masuk BIOS Laptop Lenovo, ASUS, Acer, HP, dan Dell",
+      "excerpt": "Panduan tombol shortcut dan cara masuk BIOS untuk semua merk laptop terkenal di Windows 10/11 dengan sangat cepat.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_masuk_bios.png",
+      "featured": false,
+      "slug": "/artikel/cara-masuk-bios-laptop"
+  },
+  {
+      "id": 205,
+      "title": "Cara Mengubah PDF ke Word Secara Offline & Online Gratis",
+      "excerpt": "Cara mengubah file format PDF ke Microsoft Word (.docx) agar bisa diedit dengan rapi tanpa berantakan, 100% gratis.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_pdf_to_word.png",
+      "featured": false,
+      "slug": "/artikel/cara-mengubah-pdf-ke-word"
+  },
+  {
+      "id": 206,
+      "title": "Cara Menyembunyikan Aplikasi di HP Samsung Tanpa Root",
+      "excerpt": "Tutorial mengamankan privasi dengan cara menyembunyikan aplikasi di HP Samsung menggunakan fitur bawaan One UI tanpa aplikasi tambahan.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_hide_apps_samsung.png",
+      "featured": false,
+      "slug": "/artikel/cara-menyembunyikan-aplikasi-hp-samsung"
+  },
+  {
+      "id": 207,
+      "title": "Cara Cek Kesehatan Baterai Laptop Windows 10 & 11",
+      "excerpt": "Pelajari cara membuat Battery Report bawaan Windows untuk mengetahui status battery health laptop Anda tanpa software pihak ketiga.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_battery_health_laptop.png",
+      "featured": false,
+      "slug": "/artikel/cara-cek-baterai-health-laptop"
+  },
+  {
+      "id": 208,
+      "title": "Cara Mengatasi Google Chrome Sering Keluar Sendiri di HP",
+      "excerpt": "Google Chrome sering force close secara tiba-tiba di smartphone Android/iOS Anda? Ini langkah mudah memperbaikinya.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_chrome_force_close.png",
+      "featured": false,
+      "slug": "/artikel/cara-mengatasi-chrome-force-close"
+  },
+  {
+      "id": 209,
+      "title": "Cara Menggunakan Rufus untuk Membuat Bootable Flashdisk Windows",
+      "excerpt": "Panduan teknis lengkap cara menggunakan Rufus untuk membuat bootable media Windows 10/11 menggunakan USB flash drive secara aman.",
+      "category": "Tutorial & Tips",
+      "slugCategory": "tech-hack/tutorial",
+      "date": "17 Jun 2026",
+      "imageUrl": "/images/tutorial_bootable_rufus.png",
+      "featured": false,
+      "slug": "/artikel/cara-membuat-bootable-flashdisk-rufus"
   }
 ];
+

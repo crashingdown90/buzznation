@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+export const metadata = {
+  title: "Panduan Lengkap Cara Membangun PC Gaming Murah di Tahun...",
+  description: "Panduan komprehensif lebih dari 800 kata tentang merakit PC Gaming murah, menghindari bottleneck, dan tips memilih komponen terbaik 2026.",
+};
+
 export default function ArticlePage() {
   return (
     <main className="main-content article-layout">
@@ -101,6 +107,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan Akhir</h2>
           <p>Membangun PC Gaming di tahun 2026 adalah sebuah perjalanan yang menyenangkan dan sangat menguntungkan secara finansial. Dengan kebebasan memilih komponen satuan, Anda terbebas dari jerat harga PC <em>Pre-built</em> (pabrikan) yang seringkali menyisipkan komponen murahan di bagian yang tidak terlihat seperti PSU atau Motherboard. Kuncinya hanyalah riset yang mendalam, teliti dalam membaca spesifikasi, dan menghindari kombinasi komponen yang berpotensi menimbulkan <em>bottleneck</em>. Selamat merakit, dan selamat menikmati grafis super mulus Rata Kanan!</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/tutorial">Tutorial & Tips</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/panduan-merakit-pc-gaming-2026" category="Tutorial & Tips" />

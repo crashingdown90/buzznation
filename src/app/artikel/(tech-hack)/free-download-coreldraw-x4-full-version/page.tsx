@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+export const metadata = {
+  title: "CorelDRAW X4 Full Version dan Portable (Free Download)",
+  description: "Free download CorelDRAW X4 full version dan CorelDRAW x4 portable. Cek link dan cara download CorelDRAW X4 terbaru secara aman tanpa risiko.",
+};
+
 export default function CorelDrawArticle() {
   return (
     <main className="main-content article-layout">
@@ -114,6 +120,10 @@ export default function CorelDrawArticle() {
       <p style={{ color: 'var(--text-secondary)' }}>Tidak. Panduan inti yang kami sampaikan di sini memanfaatkan peralatan dan piranti lunak berlisensi gratis (Open Source / Freeware). Biaya tambahan hanya opsional jika Anda menginginkan fitur tingkat lanjut (Premium).</p>
     </div>
   
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/apps/pc">PC Software</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/free-download-coreldraw-x4-full-version" category="Tech Hack" />

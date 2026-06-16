@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Review HP Gaming 2 Jutaan Terbaik 2026: Spek Gahar Harga...",
+  description: "Lagi cari HP murah tapi kuat main Genshin Impact dan PUBG rata kanan? Ini rekomendasi HP gaming 2 jutaan terbaik tahun ini.",
+};
 
 export default function ArticlePage() {
   return (
@@ -122,6 +128,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Mana HP Gaming 2 Jutaan Terbaik Pilihan Anda?</h2>
           <p>Jika prioritas utama Anda adalah daya tahan baterai ekstra panjang untuk bermain game berjam-jam tanpa perlu powerbank, **Tecno Pova 6** dengan baterai 6000 mAh adalah jawabannya. Namun, bagi Anda yang sering bermain game sambil mencolokkan kabel charger ke stopkontak listrik, fitur Bypass Charging pada **Infinix Note 40** menjadikannya pilihan teraman dari segi suhu perangkat. Terakhir, bagi pencari performa Helio G99 murni paling murah dengan budget mepet di bawah 2 juta, **Itel RS4** adalah opsi alternatif terbaik.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/gadget">Review Gadget</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/review-hp-gaming-2-jutaan-terbaik-2026" category="Tech Hack" />

@@ -108,6 +108,10 @@ export default function ArticlePage() {
             <h4>Apakah ada aplikasi legal buatan Indonesia yang gratis?</h4>
             <p>Ada! Aplikasi MAXstream (milik Telkomsel) dan Vidio (milik Emtek) menyediakan ribuan tayangan sinetron, FTV, dan film lawas Indonesia yang bisa diakses secara gratis selama Anda menggunakan layanan jaringan mereka.</p>
           </div>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/hiburan/film">Film & Series</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://www.imdb.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>IMDb (Internet Movie Database)</a>.
+          </p>
         </div>
 
         {/* RELATED POSTS SECTION */}

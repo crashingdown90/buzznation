@@ -1,5 +1,11 @@
+import Link from "next/link";
 import RelatedPosts from "@/components/RelatedPosts";
 import Image from "next/image";
+
+export const metadata = {
+  title: "12 Cara Membuka Situs yang Diblokir di Google Chrome...",
+  description: "Cara buka situs yang diblokir tanpa menggunakan VPN. Temukan metode teknis terbaru yang aman, praktis, dan bebas pelacakan data.",
+};
 
 export default function ArticlePage() {
   return (
@@ -91,6 +97,10 @@ export default function ArticlePage() {
 
           <h2>Kesimpulan: Berselancar Secara Aman dan Cerdas</h2>
           <p>Membuka pemblokiran situs-situs informasi tepercaya di internet tidak harus selalu mengorbankan privasi data pribadi Anda dengan menggunakan aplikasi VPN gratis yang berbahaya. Metode optimal seperti mengaktifkan **DNS over HTTPS (DoH) Cloudflare 1.1.1.1** di dalam peramban Google Chrome terbukti menjadi solusi tercepat, gratis, dan paling aman yang menjaga kestabilan kecepatan koneksi data internet harian Anda di tahun 2026.</p>
+        
+          <p style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+            Baca juga artikel menarik lainnya di portal <Link href="/">BuzzNation</Link>. Temukan juga informasi ter-update seputar kategori <Link href="/kategori/tech-hack/internet">Internet</Link> kami. Untuk referensi resmi dan terpercaya, Anda juga dapat mengunjungi <a href="https://support.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Google Support</a>.
+          </p>
         </div>
 
         <RelatedPosts currentSlug="/artikel/buka-situs-diblokir-tanpa-vpn" category="Tech Hack" />
